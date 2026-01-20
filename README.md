@@ -1,58 +1,58 @@
 # Bluesky Posts Dataset Sample
 
-<h2>A sample dataset of 1,892 records</h2>
+<h2>1,892개 레코드로 구성된 샘플 데이터셋</h2>
 
-<a href="https://brightdata.com">
+<a href="https://brightdata.co.kr">
     <img src="https://github.com/luminati-io/Bluesky-Posts-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
-This **Bluesky Posts Dataset Sample** includes **1,892 records** and was extracted using the **Bright Data API**.
+이 **Bluesky Posts Dataset Sample**에는 **1,892개 레코드**가 포함되어 있으며, **Bright Data API**를 사용하여 추출되었습니다.
 
 ## Data Points
 
 | Field Name | Description |
 |------------|-------------|
-| `url` | The direct URL to the specific post on the Bluesky platform. |
-| `post_id` | A unique identifier for each post. |
-| `post_date` | The date and time when the post was published. |
-| `posted_by` | Information about the user who created the post, including handle and profile link. |
-| `post_text` | The textual content of the post. |
-| `comments` | The number of comments made on the post. |
-| `reposts` | The number of times the post was reposted by other users. |
-| `likes` | The total number of likes received by the post. |
-| `reposted` | Indicates whether the post is a repost of another user's content. |
-| `external_links` | Links to external websites included in the post. |
-| `images` | Count of images attached to the post. |
-| `videos` | Count of videos attached to the post. |
-| `original_post` | Indicates whether the content is original or reposted. |
-| `pinned` | Indicates if the post is pinned to the top of the user's profile. |
-| `discovery_input` | Keywords or tags used for content discovery. |
-| `contains_video` | Indicates if the post contains a video. |
-| `profile_followers_count` | The number of followers the post creator has. |
-| `profile_follows_count` | The number of users the post creator follows. |
-| `profile_posts_count` | Total number of posts made by the user. |
-| `post_type` | The type of post, such as text, image, or video. |
-| `video_thumbnails` | Thumbnail images for any videos included in the post. |
-| `video_duration` | Length of any videos in the post, in seconds. |
+| `url` | Bluesky 플랫폼의 특정 게시물로 직접 연결되는 URL입니다. |
+| `post_id` | 각 게시물의 고유 식별자입니다. |
+| `post_date` | 게시물이 게시된 날짜 및 시간입니다. |
+| `posted_by` | 핸들과 프로필 링크를 포함하여 게시물을 작성한 사용자에 대한 정보입니다. |
+| `post_text` | 게시물의 텍스트 콘텐츠입니다. |
+| `comments` | 게시물에 작성된 댓글 수입니다. |
+| `reposts` | 다른 사용자가 해당 게시물을 리포스트한 횟수입니다. |
+| `likes` | 게시물이 받은 총 좋아요 수입니다. |
+| `reposted` | 해당 게시물이 다른 사용자의 콘텐츠를 리포스트한 것인지 여부를 나타냅니다. |
+| `external_links` | 게시물에 포함된 외부 웹사이트 링크입니다. |
+| `images` | 게시물에 첨부된 이미지 수입니다. |
+| `videos` | 게시물에 첨부된 동영상 수입니다. |
+| `original_post` | 콘텐츠가 원본인지 또는 리포스트인지 여부를 나타냅니다. |
+| `pinned` | 게시물이 사용자 프로필 상단에 고정되어 있는지 여부를 나타냅니다. |
+| `discovery_input` | 콘텐츠 탐색에 사용된 키워드 또는 태그입니다. |
+| `contains_video` | 게시물에 동영상이 포함되어 있는지 여부를 나타냅니다. |
+| `profile_followers_count` | 게시물 작성자의 팔로워 수입니다. |
+| `profile_follows_count` | 게시물 작성자가 팔로우하는 사용자 수입니다. |
+| `profile_posts_count` | 사용자가 작성한 총 게시물 수입니다. |
+| `post_type` | 텍스트, 이미지 또는 동영상 등 게시물의 유형입니다. |
+| `video_thumbnails` | 게시물에 포함된 동영상의 썸네일 이미지입니다. |
+| `video_duration` | 게시물에 포함된 동영상의 길이(초)입니다. |
 
 
 ## Use Cases
 
 ### 1. Social Media Sentiment Analysis
-Analyze public sentiment on various issues by examining the text content and engagement metrics of posts.
+게시물의 텍스트 콘텐츠와 참여 지표를 분석하여 다양한 이슈에 대한 대중의 감정을 분석합니다.
 
 ### 2. Influencer Impact Assessment
-Evaluate the influence of different users by analyzing follower counts and engagement ratios to identify key influencers.
+팔로워 수와 참여율을 분석하여 핵심 인플루언서를 식별하고, 다양한 사용자의 영향력을 평가합니다.
 
 ### 3. Content Performance Benchmarking
-Compare the performance of posts across different profiles to determine best practices and optimize content strategies.
+서로 다른 프로필 간 게시물 성과를 비교하여 모범 사례를 도출하고 콘텐츠 전략을 최적화합니다.
 
 
 
 ## File Formats
 
-The dataset is available in multiple formats:
-- **CSV** (included in this sample)
+데이터셋은 여러 형식으로 제공됩니다:
+- **CSV** (이 샘플에 포함됨)
 - **JSON**
 - **NDJSON**
 - **JSON Lines**
@@ -72,8 +72,8 @@ The dataset is available in multiple formats:
 
 ## Update Frequency
 
-Datasets can be updated on various schedules:
-- **Once** (one-time delivery)
+데이터셋은 다양한 일정으로 업데이트할 수 있습니다:
+- **Once** (일회성 제공)
 - **Daily**
 - **Weekly**
 - **Monthly**
@@ -82,14 +82,14 @@ Datasets can be updated on various schedules:
 
 ## Data Enrichment
 
-Enhance your dataset with additional data points based on your specific requirements. Contact us for custom enrichment options.
+특정 요구사항에 따라 추가 데이터 포인트로 데이터셋을 강화할 수 있습니다. 맞춤형 enrichment 옵션은 문의해 주시기 바랍니다.
 
-**[Get the full Bluesky Posts dataset](https://brightdata.com/products/datasets/bluesky/posts)**
+**[Get the full Bluesky Posts dataset](https://brightdata.co.kr/products/datasets/bluesky/posts)**
 
 ---
 
 ## Free Access for Researchers and NGOs
 
-The Bright Initiative offers free access to **[Web Scraper APIs](https://brightdata.com/products/web-scraper)** and **[ready-to-use datasets](https://brightdata.com/products/datasets)** for academic researchers, NGOs, and NPOs working on environmental and social causes. 
+Bright Initiative는 환경 및 사회적 목적을 위해 활동하는 학술 연구자, NGO 및 NPO를 대상으로 **[Web Scraper APIs](https://brightdata.co.kr/products/web-scraper)** 및 **[ready-to-use datasets](https://brightdata.co.kr/products/datasets)**에 대한 무료 액세스를 제공합니다. 
 
-Apply for free access at [brightinitiative.com](https://brightinitiative.com).
+무료 액세스 신청은 [brightinitiative.com](https://brightinitiative.com)에서 진행해 주시기 바랍니다.
